@@ -1,0 +1,11 @@
+# Ignore .npy and .pyd files
+*.npy
+*.pyd
+
+# Ignore virtual environment and site-packages
+env/
+__pycache__/
+
+# Ignore other potentially large or unnecessary files
+*.log
+*.tmp
