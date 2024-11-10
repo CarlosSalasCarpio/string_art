@@ -1,1 +1,6 @@
-env
+# Ignorar archivos específicos
+front.py
+*.pyc
+
+# Ignorar directorios
+.env/
