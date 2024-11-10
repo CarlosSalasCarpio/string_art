@@ -1,11 +1,41 @@
-# Ignore .npy and .pyd files
-*.npy
-*.pyd
-
-# Ignore virtual environment and site-packages
-env/
+# Ignore Python bytecode
 __pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore other potentially large or unnecessary files
+# Ignore virtual environment
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore logs and databases
 *.log
-*.tmp
+*.sqlite3
+
+# Ignore Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Ignore environment variable files
+.env
+
+# Ignore image files
+*.jpg
+
+# Ignore NumPy array files
+*.npy
