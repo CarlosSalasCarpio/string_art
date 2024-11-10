@@ -1,0 +1,14 @@
+# Core libraries for image processing and data manipulation
+Pillow
+numpy
+matplotlib
+opencv-python-headless
+
+# For handling CSV and ZIP files
+jsonschema
+
+# Gradio for the UI
+gradio
+
+# Requests library for making HTTP requests
+requests

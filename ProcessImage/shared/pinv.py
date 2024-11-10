@@ -5,10 +5,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from itertools import combinations
 from PIL import Image
-from border import border_pixels
-from find import draw_line
-from image import load_and_process_image, image_to_vector
-from graph import plot_lines
+from .border import border_pixels
+from .find import draw_line
+from .image import load_and_process_image, image_to_vector
+from .graph import plot_lines
 from io import BytesIO
 
 def is_edge_line(x1, y1, x2, y2, image_size):

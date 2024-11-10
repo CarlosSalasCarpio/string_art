@@ -15,7 +15,7 @@ venv/
 Thumbs.db
 
 # Ignore IDE/editor specific files
-.vscode/
+
 .idea/
 *.sublime-workspace
 *.sublime-project
@@ -39,3 +39,4 @@ build/
 
 # Ignore NumPy array files
 *.npy
+.python_packages
